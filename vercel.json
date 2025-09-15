@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/geocode.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/geocode", "dest": "api/geocode.js" }
+  ]
+}
